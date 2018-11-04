@@ -18,6 +18,9 @@ void handleRoot() {
   }
   message+= "<br>JSON status is available <a href=\"http://keytracker.local/status\">here</a>.";
   message+= "<br>Get MQTT status messages by subscribing to <b>keytracker/status</b> on server "+String(MQTT_SERVER)+".";
+  if (!MQTTClient.connected()) {
+    message+= "<br><br><b>Cannot connect to MQTT server.</b> I\'m so alone..<br>";  
+  }
   message+= "<br><br>This page refreshes every 10 seconds<br>";
   message+= "<a href=\"http://keytracker.local/help\">help</a>";
   message+= "<meta http-equiv=\"refresh\" content=\"10\" />";
