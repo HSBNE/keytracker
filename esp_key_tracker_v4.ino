@@ -50,10 +50,10 @@ WiFi/Webserver Details
 */
 
 const char* ssid =      "HSBNEAccess";
-const char* password =  "cookiemonster";
+const char* password =  "c***********r";
 #define MQTT_SERVER     "10.0.1.253"
 #define OTA_HOSTNAME    "SENSE-keytracker"
-#define OTA_PASSWORD    "cookiemonster"
+#define OTA_PASSWORD    "c***********r"
 
 /*
 const char* ssid =        "OPTUS_4E5769";
@@ -65,7 +65,7 @@ const int server_port = 80;
 
 #define MQTT_SERVERPORT  1883                   // use 8883 for SSL
 #define MQTT_USERNAME    "keytracker"
-#define MQTT_PASSWORD    "keytracker123"
+#define MQTT_PASSWORD    "k***********3"
 
 #define MQTT_CHAT_TOPIC      "keytracker/chat"
 #define MQTT_REMOVED_TOPIC   "keytracker/removed"
